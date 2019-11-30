@@ -8,23 +8,42 @@
     <body>
         <div class="container">
             <h1>PLAY SOME <strong><em>TIC TAC TOE</em></strong></h1>
+            <h3 class="question">Do you want to be an "X" or an "O"?
+                <input type="radio" name="choose" value="X" id="selectX" checked> X
+                <input type="radio" name="choose" value="O" id="selectO"> O
+            </h3>
+            <div class="button"><input type="button" value="PLAY" id="play"></div>
+                <p>You are an  <span id="iWant">  &nbsp;</span></p>
             <div class="game">
                 <div class="row">
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
+                    <div class="box" id="box1"></div>
+                    <div class="box" id="box2"></div>
+                    <div class="box" id="box3"></div>
                 </div>
                 <div class="row">
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
+                    <div class="box" id="box4"></div>
+                    <div class="box" id="box5"></div>
+                    <div class="box" id="box6" ></div>
                 </div>
                 <div class="row">
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
+                    <div class="box" id="box7"></div>
+                    <div class="box" id="box8"></div>
+                    <div class="box" id="box9"></div>
                 </div>
+                <div class="x one">X</div>
+                <div class="x two">X</div>
+                <div class="x three">X</div>
+                <div class="x four">X</div>
+                <div class="x five">X</div>
+
+                <div class="o one">O</div>
+                <div class="o two">O</div>
+                <div class="o three">O</div>
+                <div class="o four">O</div>
+                <div class="o five">O</div>
+
             </div>
         </div>
+        <script src="js/script.js"></script>
     </body>
 </html>

@@ -6,12 +6,13 @@ body{
 .container{
     max-width: 800px;
     margin:auto;
-    border:5px solid cyan;
+    border:5px solid teal;
     background: white;
 }
 
 h1{
     text-align:center;
+    color:hotpink;
 }
 
 .row{
@@ -27,5 +28,48 @@ h1{
 .box{
     width:150px;
     height:150px;
-    border:5px solid cyan;
+    border:5px solid teal;
 }
+
+.x{
+    width:100px;
+    height:100px;
+    font-size:100px;
+    display:none;
+}
+
+.o{
+    width:100px;
+    height:100px;
+    font-size:100px;
+    display:none;
+}
+
+.question{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+#play{
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+}
+
+#iWant{
+    font-size: 1.2em;
+    color:teal;
+}
+
